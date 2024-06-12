@@ -1,0 +1,88 @@
+:root{
+
+    --Grayishblue: hsl(237, 18%, 59%);
+    --Softred: hsl(345, 95%, 68%);    
+    --White: hsl(0, 0%, 100%);
+    --Darkdesaturatedblue: hsl(236, 21%, 26%);
+    --Verydarkblue: hsl(235, 16%, 14%);
+    --Verydarkblue: hsl(234, 17%, 12%)
+}
+
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+}
+
+.container{
+    width:100vw;
+    height:80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    background-color: var(--Verydarkblue);
+    background-image: url("../launch-countdown-timer-main/images/bg-stars.svg");
+    gap:40px;
+}
+
+.container2{
+    width:100vw;
+    height:20vh;
+    background-color: var(--Verydarkblue);
+    background-image: url("../launch-countdown-timer-main/images/pattern-hills.svg");
+    background-image: -moz-repeating-linear-gradient();
+}
+
+.heading{
+    width:100%;
+    height:50px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+
+}
+.timer{
+    width:100%;
+    height:80px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 30px;
+}
+
+.cards{
+    height:120px;
+    width:120px;
+    border-radius: 10px;
+    background-color: var(--Darkdesaturatedblue);
+}
+.heading h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    letter-spacing: 3px;
+    color:var(--White);
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.box p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color:var(--Grayishblue);
+    letter-spacing: 2px;
+}
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards h2{
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:var(--Softred)
+}
